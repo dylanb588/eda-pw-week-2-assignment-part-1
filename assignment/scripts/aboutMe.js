@@ -6,7 +6,8 @@ let lastName = 'Brown';
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
-
+let fullName = firstName + " " + lastName ;
+console.log(fullName)
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
 
