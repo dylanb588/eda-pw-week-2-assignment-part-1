@@ -21,7 +21,8 @@ let introduction = 'My name is ' + fullName + ', and I think ' + luckyNumber + '
 console.log(introduction)
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
 //     Console log the value of `adventurous`
-
+let adventurous = true
+console.log(adventurous)
 // 7 - Create a variable named `food`, and set its value to a string of your favorite food
 //     Console log the value of `food`
 
