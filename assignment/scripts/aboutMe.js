@@ -71,6 +71,17 @@ else{
 //      set `petStatus` to the value of "I have enough pets" 
 //      if the value of `pets` is greater than the value of `allowedPets`.
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
+let petStatus = 'Oh no, I have too many pets!';
+
+if ( pets < allowedPets ){
+console.log('I can have more pets');
+}
+else if ( pets === allowedPets ){
+  console.log('I have enough pets');
+}
+else if ( pets > allowedPets ){
+  console.log(petStatus);
+}
 
 // STRETCH GOALS:
 
