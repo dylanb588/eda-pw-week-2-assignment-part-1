@@ -6,7 +6,7 @@ let lastName = 'Brown';
 // 3 - Create a third variable called `fullName`, assign it the value of your first and last name
 //     (remember, you already have variables for this, can you use those?)
 //     Console log the value of `fullName`
-let fullName = firstName + " " + lastName ;
+let fullName = firstName + " " + lastName;
 console.log(fullName);
 // 4 - Create a variable called `luckyNumber` and assign it the value of your lucky number.
 //     Console log the value of `luckyNumber`
@@ -41,12 +41,12 @@ const allowedPets = 2;
 //      if adventurous is true, set `result` to be "Adventures are great!", 
 //      if it's not true,  set `result` to be "How about we stay home?"
 //      Console log the value of `result`
-let result = 'Adventures are great!';
+let result = true;
 
-if ( adventurous ){
-  console.log(result);
+if(result === adventurous){
+  console.log('Adventures are great!');
 }
-else {
+else{
   console.log('How about we stay home?');
 }
 // 13 - Create a variable called `diceRoll` and set it to the value of "Try again later.".
@@ -56,7 +56,7 @@ else {
 //      Console log the value of `diceRoll`
 let diceRoll = 'Try again later.';
 
-if ( luckyNumber === 2 && adventurous ){
+if(luckyNumber === 2 && adventurous){
   console.log('Roll the dice!');
 }
 else{
@@ -73,13 +73,13 @@ else{
 //      set `petStatus` to the value of "Oh no, I have too many pets!"
 let petStatus = 'Oh no, I have too many pets!';
 
-if ( pets < allowedPets ){
+if(pets < allowedPets){
 console.log('I can have more pets');
 }
-else if ( pets === allowedPets ){
+else if(pets === allowedPets){
   console.log('I have enough pets');
 }
-else if ( pets > allowedPets ){
+else if(pets > allowedPets){
   console.log(petStatus);
 }
 
