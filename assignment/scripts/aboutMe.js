@@ -44,7 +44,7 @@ const allowedPets = 2;
 let result;
 
 if(adventurous === true){
-  result = 'Adventures are great!'
+  result = 'Adventures are great!';
   console.log(result);
 }
 else{
